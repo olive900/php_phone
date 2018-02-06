@@ -3,7 +3,7 @@
 
 include 'geo_lib/phone_geo.php';
 
-$ret = GeoPhone::find('15901511234');
+$ret = GeoPhone::find($_POST["phone"]);
 
 
 print_r( $ret );
